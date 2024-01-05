@@ -1,6 +1,11 @@
-
+body{
+    background-color: rgb(107, 184, 243);
+}
 .main{
-margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+align-items: center;
 }
 .Stick{
     background-color: black;
@@ -36,6 +41,15 @@ margin: auto;
 }
 .Glow {
     box-shadow: -2px -43px 100px 100px rgb(233, 230, 210);
+}
+button{
+    color: white;
+    background-color: rgb(136, 174, 246);
+    margin-top:30px;
+    height: 50px;
+    border-radius: 12.5px;
+    border: 1px solid white;
+    width: 200px;
 }
 /* 
 
